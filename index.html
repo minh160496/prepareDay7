@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Van Minh prepare day6</title>
+    <!--phan link cdn icon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- phan cdn google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link favicon icon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+
+    <!-- phan link file css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="app">
+        <main id="main">
+            <h1>Day 7: Tìm hiểu về css transition, css animation, css transform <br> Một số css seclector; Một số tool
+                cần thiết</h1>
+
+            <section class="main__item css-transform">
+                <h2>I. Tìm hiểu về css <code>transform</code></h2>
+                <div class="main__item__content">
+                    <ol>
+                        <li>
+                            <h3>Tác dụng</h3>
+                            <p>Thuộc tính CSS biến đổi cho phép bạn dịch chuyển, xoay, chia tỷ lệ, nghiêng hoặc dịch một
+                                phần tử. Nó sửa đổi không gian tọa độ của mô hình định dạng trực quan CSS</p>
+                        </li>
+                        <li>
+                            <h3>Các giá trị cơ bản</h3>
+                            <div class="row">
+                                <div>
+                                    <ul>
+                                        <li><code>Translate</code></li>
+                                        <li><code>Rotate</code></li>
+                                        <li><code>Scale</code></li>
+                                        <li><code>Matrix</code></li>
+                                    </ul>
+                                </div>
+                                <div class="ex--transform">
+                                    <div>
+                                        <h4>Hover me to transform rotate</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <h4>Transform-origin</h4>
+                            <p>Dùng để thay đổi tâm của tọa độ khi thực hiện transform một đối tượng</p>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+
+
+            <section class="main__item css-transtion">
+                <h2>II. Tìm hiểu về css <code>transition</code></h2>
+                <div class="main__item__content">
+                    <div class="content__item">
+                        <ol>
+                            <li>Tác dụng thay đổi thuộc tính CSS trong một thời gian nhất định</li>
+                            <li>
+                                <h3>Các thành phần</h3>
+                                <ul>
+                                    <li><code>transition</code></li>
+                                    <li><code>transition-delay</code></li>
+                                    <li><code>transition-duration</code></li>
+                                    <li><code>transition-property</code></li>
+                                    <li><code>transition-timing-function</code></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <div>
+                                        <h3>Cách sử dụng</h3>
+                                        <img src="./assets/img/transition.png" alt="img" width="100%">
+                                        <p>Ex</p>
+                                        <img src="./assets/img/transitionex.png" alt="img">
+                                    </div>
+                                    <div class="ex--transition">
+                                        <div>
+                                            <h5>Hover me to see transition</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="main__item css-transform">
+                <h2>III. Tìm hiểu về css <code>animation</code></h2>
+                <div class="main__item__content">
+                    <ol>
+                        <li>
+                            <h3>Tác dụng</h3>
+                            <p>Tạo ra các hiệu ứng hoạt cảnh</p>
+                        </li>
+                        <li>
+                            <p>Để tạo ra aimation cần gán cơ chế hoạt động cho nó, bằng cách sử dụng
+                                <code>@keyframes</code>
+                            </p>
+                            <img src="./assets/img/animation.png" alt="image"> <br>
+                        </li>
+                        <li>
+                            <h3>Các giá trị cơ bản</h3>
+                            <ul>
+                                <li><code>animation-name</code></li>
+                                <li><code>animation-duration</code></li>
+                                <li><code>animation-delay</code></li>
+                                <li><code>animation-iteration-count</code></li>
+                                <li><code>animation-direction</code></li>
+                                <li><code> animation-timing-function</code></li>
+                                <li><code>animation-fill-mode</code></li>
+                            </ul>
+                            <div class="row-near">
+                                <div>
+                                    <img src="./assets/img/animation2.png" alt="img">
+                                </div>
+                                <div class="ex--animation">
+                                    <div>
+                                        <p>Animation</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+
+
+            <section class="main__item css--selector">
+                <h2>IV. CSS selector</h2>
+                <ol>
+                    <li>
+                        <h3> Attribute selectors</h3>
+                    </li>
+                    <li>
+                        <h3> Class selectors</h3>
+                    </li>
+                    <li>
+                        <h3>ID selectors</h3>
+                    </li>
+                    <li>
+                        <h3> Type selectors</h3>
+                    </li>
+                    <li>
+                        <h3> Universal selectors</h3>
+                        <ul>
+                            <li>
+                                <p>Chị em liền kề</p>
+                                <img src="./assets/img/chi-em-lien-ke.png" alt="img">
+                            </li>
+                            <li>
+                                <p>Phần tử con trực tiếp</p>
+                                <img src="./assets/img/con-truc-tiep.png" alt="img">
+                            </li>
+                            <li>
+                                <p>Các phần tử theo sau một phần tử</p>
+                                <img src="./assets/img/chi-em-sau.png" alt="">
+                            </li>
+                            <li>
+                                <p>Bộ chọn kiểu danh sách</p>
+                                <img src="./assets/img/list.png" alt="img">
+                            </li>
+                        </ul>
+                    </li>
+
+                </ol>
+            </section>
+
+            <section class="main__item tools">
+                <h2>V. Một số tool cần thiết</h2>
+                <ul>
+                    <li>Smart Page ruller Extension: dùng để đo kích thước của container</li>
+                    <li>Perfectpixel chrome extension: Để so sánh trực tiếp bản thiết kế với giao diện web đang code
+                    </li>
+                    <li>Mobile simulator: Dùng trong responsive Web</li>
+                    <li>Color Picket: Dùng để lấy các mã mầu của đối tượng</li>
+                </ul>
+            </section>
+
+        </main>
+    </div>
+</body>
+<script src="./assets/js/index.js"></script>
+
+</html>
